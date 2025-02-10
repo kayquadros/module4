@@ -60,7 +60,7 @@ background-color: #ede8e3;
 background-position: bottom right;
 background-attachment: fixed;
 background-size: cover;
-background-clip: content-box;
+/*background-clip: content-box;*/
 font-family: Georgia, 'Times New Roman', Times, serif;
 font-size: 100%;
 }
