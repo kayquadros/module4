@@ -55,11 +55,11 @@ max-width: 60em;
 margin: 0 auto 0 auto;
 padding: 0;
 /*border-style: dotted;*/
-background-image: url("../images/Tree-bird.png"), url("../images/Paper-texture.png");
+/*background-image: url("../images/Tree-bird.png"), url("../images/Paper-texture.png");*/
 background-color: #ede8e3;
-background-position: bottom right;
+/*background-position: bottom right;
 background-attachment: fixed;
-background-size: cover;
+background-size: cover;*/
 /*background-clip: content-box;*/
 font-family: Georgia, 'Times New Roman', Times, serif;
 font-size: 100%;
