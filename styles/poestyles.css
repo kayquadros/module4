@@ -1,0 +1,101 @@
+header {
+padding: 0;
+margin: 40px auto 0 70px;
+inline-size: 25%;
+line-height: 1.25;
+color: #000000;
+font-size: 1.5em;
+letter-spacing: 3px;
+text-shadow: 1px 2px 6px #2102026c;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #9D9690;
+}
+
+/*Is it better to use id attribute to float just the home button left, or inline style?*/
+#home {
+float: left;
+}
+
+li {
+float: right;
+}
+
+li a {
+display: block;
+color: #000000;
+text-align: center;
+font-weight: bold;
+padding: 14px 16px;
+text-decoration: none;
+}
+  
+li a:hover:not(.active) {
+background-color: #000000;
+color: #ede8e3;
+}
+  
+.active {
+background-color: #531B22;
+color: #ede8e3;
+}
+
+body {
+max-width: 65em;
+margin: 0 auto 0 auto;
+background-image: url("../images/Tree-bird.png"), url("../images/Paper-texture.png"); /*I created both images. Have been experimenting with styles to get the background to display uniformly on all pages and be responsive to different screen sizes. It's mostly how I wanted, but can't get it to cooperate on Tell-Tale Heart page displayed on mobile--frustrating!*/
+background-color: #ede8e3;
+background-position: bottom right;
+background-attachment: fixed;
+background-size: cover;
+background-repeat: no-repeat;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 100%;
+}
+
+section {
+background-color: #ede8e3f2;
+margin: 40px;
+padding: 5px 30px;
+border: 1px solid #b7b4b1a7;
+text-align: center;
+overflow-wrap: anywhere;
+}
+
+#read-poe {
+a {
+background-color: #9D9690;
+display: block;
+max-width: 300px;
+color: #000000;
+text-align: center;
+font-weight: bold;
+padding: 14px 16px;
+margin: auto auto 25px;
+text-decoration: none;
+}
+          
+a:hover {
+background-color: #531B22;
+color: #ede8e3;
+}
+}
+
+table, th, td {
+border-collapse: collapse;
+border: 1px solid #b7b4b1a7;
+padding: 1em;
+margin: 20px auto;
+text-align: left;
+overflow-wrap: normal;
+caption-side: bottom;
+}
+
+th {
+background-color: #9D9690;  
+}
